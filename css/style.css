@@ -23,6 +23,7 @@ div.absolute span {
     width: 100px;
     height: auto;
     top: -12px;
+    padding: 3px;
     right: -12px;
     background: grey;
     color: white;
