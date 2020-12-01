@@ -1,48 +1,116 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- External CSS -->
     <link rel="stylesheet" href="/css/style.css">
-    <title> Siraj's Reataurant</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <title>Module-3 Solution</title>
 </head>
 
 <body>
-    <div> 
-        <h1> Our Menu</h1>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">Food,LLC</a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#chicken">Chicken <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#beef">Beef</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sushi">Sushi</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </div>
-    <div class="relative">
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex dolorem aperiam saepe magnam, nisi
-            suscipit est officiis, cumque nam quae blanditiis quidem, quam doloremque quibusdam sit. Id excepturi vero
-            sint.Impedit, aliquam, mollitia tempora quam quas placeat corrupti ex perferendis nisi sunt, atque voluptas.
-            Dolorum delectus.
-        </p>
-        <div class="absolute">
-            <span id="chicken"><b>Chicken</b> </span>
+    <div class="container-fluid">
+        <h1 class="text-center"> Our Menu</h1>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="bg-color">
+                    <h3 class="text-center" id="chicken">Chicken</h3>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla atque sit consequatur
+                        perferendis, quibusdam nisi suscipit inventore accusamus magni earum quod ratione incidunt
+                        quisquam
+                        sequi a et vel pariatur eveniet.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
+                        atque
+                        sit consequatur
+                        perferendis, quibusdam nisi suscipit inventore accusamus magni earum quod ratione incidunt
+                        quisquam
+                        sequi a et vel pariatur eveniet.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
+                        atque
+                        sit consequatur
+                        perferendis, quibusdam nisi suscipit inventore accusamus magni earum quod ratione incidunt
+                        quisquam
+                        sequi a et vel pariatur eveniet.
+                    </p>
+                </div>
+                <br>
+                <div class="bg-color">
+                    <h3 class="text-center" id="beef">Beef</h3>
+                    <p id="beef"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla atque sit consequatur
+                        perferendis, quibusdam nisi suscipit inventore accusamus magni earum quod ratione incidunt
+                        quisquam
+                        sequi a et vel pariatur eveniet.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
+                        atque
+                        sit consequatur
+                        perferendis, quibusdam nisi suscipit inventore accusamus magni earum quod ratione incidunt
+                        quisquam
+                        sequi a et vel pariatur eveniet.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
+                        atque
+                        sit consequatur
+                        perferendis, quibusdam nisi suscipit inventore accusamus magni earum quod ratione incidunt
+                        quisquam
+                        sequi a et vel pariatur eveniet.
+                    </p>
+                </div>
+                <br>
+                <div class="bg-color">
+                    <h3 class="text-center" id="sushi">Sushi</h3>
+                    <p id="sushi"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla atque sit consequatur
+                        perferendis, quibusdam nisi suscipit inventore accusamus magni earum quod ratione incidunt
+                        quisquam
+                        sequi a et vel pariatur eveniet.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
+                        atque
+                        sit consequatur
+                        perferendis, quibusdam nisi suscipit inventore accusamus magni earum quod ratione incidunt
+                        quisquam
+                        sequi a et vel pariatur eveniet.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
+                        atque
+                        sit consequatur
+                        perferendis, quibusdam nisi suscipit inventore accusamus magni earum quod ratione incidunt
+                        quisquam
+                        sequi a et vel pariatur eveniet.
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="relative">
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex dolorem aperiam saepe magnam, nisi
-            suscipit est officiis, cumque nam quae blanditiis quidem, quam doloremque quibusdam sit. Id excepturi vero
-            sint.Impedit, aliquam, mollitia tempora quam quas placeat corrupti ex perferendis nisi sunt, atque voluptas.
-            Dolorum delectus.
-        </p>
-        <div class="absolute">
-            <span id="beef"><b> Beef</b></span>
-        </div>
-    </div>
-    <div id="medium" class="relative">
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex dolorem aperiam saepe magnam, nisi
-            suscipit est officiis, cumque nam quae blanditiis quidem, quam doloremque quibusdam sit. Id excepturi vero
-            sint.Impedit, aliquam, mollitia tempora quam quas placeat corrupti ex perferendis nisi sunt, atque voluptas.
-            Dolorum delectus.
-        </p>
-        <div class="absolute">
-            <span id="sushi"><b>Sushi</b></span>
-        </div>
-    </div>
-    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js">
+    </script>
 </body>
 
 </html>
