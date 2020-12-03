@@ -14,16 +14,15 @@
 </head>
 
 <body>
-    <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-light">
+    <header id="top">
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: grey;">
             <a class="navbar-brand" href="#">Food,LLC</a>
-            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
-                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
-                aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavId">
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
                     <li class="nav-item active">
                         <a class="nav-link" href="#chicken">Chicken <span class="sr-only">(current)</span></a>
                     </li>
@@ -36,81 +35,79 @@
                 </ul>
             </div>
         </nav>
-    </div>
-    <div class="container-fluid">
+    </header>
+    <div>
         <h1 class="text-center"> Our Menu</h1>
     </div>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="bg-color">
-                    <h3 class="text-center" id="chicken">Chicken</h3>
-                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla atque sit consequatur
-                        perferendis, quibusdam nisi suscipit inventore accusamus magni earum quod ratione incidunt
-                        quisquam
-                        sequi a et vel pariatur eveniet.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
-                        atque
-                        sit consequatur
-                        perferendis, quibusdam nisi suscipit inventore accusamus magni earum quod ratione incidunt
-                        quisquam
-                        sequi a et vel pariatur eveniet.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
-                        atque
-                        sit consequatur
-                        perferendis, quibusdam nisi suscipit inventore accusamus magni earum quod ratione incidunt
-                        quisquam
-                        sequi a et vel pariatur eveniet.
-                    </p>
-                </div>
-                <br>
-                <div class="bg-color">
-                    <h3 class="text-center" id="beef">Beef</h3>
-                    <p id="beef"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla atque sit consequatur
-                        perferendis, quibusdam nisi suscipit inventore accusamus magni earum quod ratione incidunt
-                        quisquam
-                        sequi a et vel pariatur eveniet.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
-                        atque
-                        sit consequatur
-                        perferendis, quibusdam nisi suscipit inventore accusamus magni earum quod ratione incidunt
-                        quisquam
-                        sequi a et vel pariatur eveniet.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
-                        atque
-                        sit consequatur
-                        perferendis, quibusdam nisi suscipit inventore accusamus magni earum quod ratione incidunt
-                        quisquam
-                        sequi a et vel pariatur eveniet.
-                    </p>
-                </div>
-                <br>
-                <div class="bg-color">
-                    <h3 class="text-center" id="sushi">Sushi</h3>
-                    <p id="sushi"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla atque sit consequatur
-                        perferendis, quibusdam nisi suscipit inventore accusamus magni earum quod ratione incidunt
-                        quisquam
-                        sequi a et vel pariatur eveniet.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
-                        atque
-                        sit consequatur
-                        perferendis, quibusdam nisi suscipit inventore accusamus magni earum quod ratione incidunt
-                        quisquam
-                        sequi a et vel pariatur eveniet.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
-                        atque
-                        sit consequatur
-                        perferendis, quibusdam nisi suscipit inventore accusamus magni earum quod ratione incidunt
-                        quisquam
-                        sequi a et vel pariatur eveniet.
-                    </p>
-                </div>
+            <div class="bg-color col-lg-4 col-md-6 col-sm-12 m-2">
+                <p id="chicken" class="text-center">Chicken</p>
+                <p>lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ab consectetur commodi qui ad
+                    temporibus eum ea quaerat amet inventore consequuntur laboriosam iste dicta deserunt cum, hic
+                    quibusdam perspiciatis explicabo!
+                    Distinctio non quam cumque explicabo ipsam cum rerum ipsa ipsum dolorum, sequi saepe aut eos, rem
+                    doloribus et qui voluptatum reprehenderit debitis ab consectetur? Velit ut fugit blanditiis
+                    molestias est?
+                    Atque aspernatur illo, debitis temporibus error aperiam magni fuga quidem, pariatur illum omnis
+                    deserunt repellat sequi necessitatibus quo aliquid cumque odio reprehenderit perspiciatis voluptates
+                    magnam tenetur tempore? Libero, obcaecati dolore!</p>
+            </div>
+            <div class="bg-color col-lg-4 col-md-6 col-sm-12 m-2">
+                <p id="beef" class="text-center">Beef</p>
+                <p>lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolorem dolor sunt corrupti, praesentium
+                    ex perferendis repudiandae id. Laudantium neque repellendus iusto accusantium nesciunt odit at sed
+                    eius inventore aperiam.
+                    Vero delectus quis quam? Quas ratione quidem sunt ullam numquam tempore, excepturi nemo eaque
+                    voluptates asperiores officiis rerum assumenda aliquid sapiente eveniet. Ut ipsam corrupti aliquid!
+                    Illo alias tenetur magni!
+                    Possimus libero, quo dolores soluta aspernatur reiciendis qui labore esse excepturi veritatis
+                    repellat optio atque corrupti ab eos corporis delectus vero beatae sit officiis ipsam saepe. Impedit
+                    exercitationem ipsum sunt?</p>
+            </div>
+            <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+            <div class="bg-color col-lg-4 col-md-12 col-sm-12 m-2">
+                <p id="sushi" class="text-center">Sushi</p>
+                <p>lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, laboriosam magnam. Ex quas quae
+                    pariatur molestias quaerat numquam deserunt, cum tempore, voluptates hic nostrum quos veniam porro
+                    vitae nobis voluptatum?
+                    Culpa, quaerat tempore! Neque natus est veniam laborum numquam sapiente libero quas pariatur
+                    corrupti, fugiat illum asperiores voluptates ipsa modi. Architecto et omnis tempore neque in
+                    voluptatum doloribus eum autem!
+                    Doloremque, dolore recusandae unde est veritatis praesentium aut dicta necessitatibus architecto cum
+                    ipsum? Rem, repellat, repellendus fuga in nesciunt, ullam iure consequuntur nostrum cupiditate
+                    dolorem fugit explicabo nemo quas hic?</p>
             </div>
         </div>
     </div>
+    <!-- Bootstrap JS,Jquery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js">
-    </script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js">
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
     </script>
 </body>
 
 </html>
+</body>
